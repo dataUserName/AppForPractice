@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+
 }
 
 android {
@@ -8,6 +9,7 @@ android {
     compileSdk 32
 
     defaultConfig {
+        viewBinding.enabled = true
         applicationId "com.example.appforpractice"
         minSdk 23
         targetSdk 32
